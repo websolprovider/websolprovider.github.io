@@ -42,7 +42,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 :root {
-    --color-primary: #ff014f;
+  --primary-color: #0060ff;
+  --dark-color: #0f0f35;
+}
+
+/* Example usage */
+a {
+  color: var(--primary-color);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border: none;
+  color: #fff;
+}
+
+footer {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+
+
+
+:root {
     --color-secondary: #f4f5f6;
     --color-tertiary: #0d1013;
     --color-gray: #f6f6f6;
